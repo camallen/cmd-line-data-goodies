@@ -2,6 +2,8 @@ Some example exercises using command line tools for data processing. Specificall
 
 All exercises are in the examples directory and all these files rely on the data in data_files.
 
+As always, use man pages for more information on any of the commands line tools in these examples, e.g. `man split`.
+
 With thanks to https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da as most of this was outrageously stolen.
 
 
