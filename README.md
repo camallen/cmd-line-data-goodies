@@ -6,10 +6,12 @@ As always, use man pages for more information on any of the commands line tools 
 
 With thanks to https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da as most of this was outrageously stolen.
 
-And https://people.sc.fsu.edu/~jburkardt/data/csv for the sampel data
-
+And https://people.sc.fsu.edu/~jburkardt/data/csv for the sample data
 
 ###### Further reading
+
+Data Science at the Command Line
++ https://www.datascienceatthecommandline.com/index.html
 
 csvkit is a suite of command-line tools for converting to and working with CSV, the king of tabular file formats.
 + http://csvkit.readthedocs.io/en/1.0.3/
