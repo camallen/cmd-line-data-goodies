@@ -40,6 +40,6 @@ diff <(sort -u data_files/duplicate_lines.txt) <(sort data_files/duplicate_lines
 Useful options:
 + `sort -f` ignore case
 + `sort -r` reverse sort order
-+ `sort -R` scramble order
++ `sort -R` scramble order (GNU only)
 + `uniq -c` count number of occurrences
 + `uniq -d` only print duplicate lines
