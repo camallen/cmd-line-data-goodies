@@ -15,5 +15,10 @@ If you have GNU sort or shuf, randomly combine the two files for mashups, mine a
 paste -d ' ' <(gshuf data_files/places.txt) <(gshuf data_files/animals.txt)
 ```
 
+Reorder columns in a file
+```
+paste -d ', ' <(cut -d, -f2 data_files/animal_locations.csv) <(cut -d, -f1 data_files/animal_locations.csv)
+```
+
 Useful options:
 + `paste -s` Concatenate all of the lines of each separate input file in command line order
