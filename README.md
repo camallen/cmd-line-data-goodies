@@ -6,6 +6,8 @@ As always, use man pages for more information on any of the commands line tools 
 
 With thanks to https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da as most of this was outrageously stolen.
 
+And https://people.sc.fsu.edu/~jburkardt/data/csv for the sampel data
+
 
 ###### Further reading
 
