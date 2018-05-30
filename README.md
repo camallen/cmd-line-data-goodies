@@ -2,7 +2,7 @@
 
 This repo contains some example exercises that use command line tools for data processing. Specifically commands used to format and select data during cleaning and/or preparation for use in other analysis tools.
 
-All exercises are in the examples directory and all these files rely on the data in data_files.
+All exercises are listed in the [examples list](examples/index.md) and all these files rely on the data in data_files.
 
 As always, use man pages for more information on any of the commands line tools in these examples, e.g. `man split`.
 
