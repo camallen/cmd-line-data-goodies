@@ -1,4 +1,6 @@
-Some example exercises using command line tools for data processing. Specifically tooling around data formatting and selection for cleaning / preparation for other analysis tools.
+#### What is this repo for?
+
+This repo contains some example exercises that use command line tools for data processing. Specifically commands used to format and select data during cleaning and/or preparation for use in other analysis tools.
 
 All exercises are in the examples directory and all these files rely on the data in data_files.
 
@@ -7,6 +9,22 @@ As always, use man pages for more information on any of the commands line tools 
 With thanks to https://medium.com/@kadek/command-line-tricks-for-data-scientists-c98e0abe5da as most of this was outrageously stolen.
 
 And https://people.sc.fsu.edu/~jburkardt/data/csv for the sample data
+
+#### Dependencies
+A bash shell is all you need to run these examples :tada:
+
+#### Getting started
+
+1. Clone the repository
+0. Change directory to the cloned repository
+0. Start running example file commands and profit
+
+**OR**
+1. Create a directory for to hold the data
+0. Download the [data_files archive](https://github.com/camallen/cmd-line-data-goodies/raw/master/data_files.zip) to the directory created in step 1
+0. Unzip the data_files archive
+0. Start running example file commands and profit
+
 
 ###### Further reading
 
