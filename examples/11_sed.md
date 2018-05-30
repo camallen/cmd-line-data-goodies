@@ -20,7 +20,12 @@ sed '/jack/d' data_files/balances.csv
 Edit a file in place of itself (this will change the source file)
 ```
 sed -i '' 's/\$/£/g' data_files/balances.csv
-````
+```
+
+Skip the first(1d) and last($d) line of a file, try these out
+```
+sed '1d;$d' data_files/balances.csv
+```
 
 Useful options:
 + `sed -i '.bak'` Edit files in-place, saving backups with the specified extension.
