@@ -56,9 +56,9 @@ Sum all the scores for movies before 2000
 awk -F, '$1 < 2000 { x+=$2 } END { print x }' data_files/deniro_rotten_tomato_scores.csv
 ```
 
-Average of the scores for movies before 2000, note the use of num rows (NR)
+Average of the scores for movies before 2000, note we can't use of num rows(NR) here, instead we have to use another variable to count the matches
 ```
-awk -F, '$1 < 2000 { x+=$2 } END { print x / NR }' data_files/deniro_rotten_tomato_scores.csv
+awk -F, '$1 < 2000 { x+=$2;y+=1 } END { print x / y }' data_files/deniro_rotten_tomato_scores.csv
 ```
 
 Get the dimensions of a file
