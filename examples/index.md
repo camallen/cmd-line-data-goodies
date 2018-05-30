@@ -1,7 +1,7 @@
 ###### 01 Iconv
-[Convert file encodings](01_iconv_files)
+[Convert file encodings](01_iconv_files.md)
 ###### 02 Head
-[Preview a file](02_head)
+[Preview a file](02_head.md)
 ###### 03 TR
 [Translate characters](03_tr.md)
 ###### 04 Grep
